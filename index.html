@@ -1,193 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Dr. Code</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/atome.css"> 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script src="js/typed.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dr. Code</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/atome.css"> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/typed.js"></script>
+  </head>
 
-<style>
-.typed-cursor{
+  <style>
+    .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
-}
-@keyframes blink{
+    }
+    @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}
-@-webkit-keyframes blink{
+    }
+    @-webkit-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}
-@-moz-keyframes blink{
+    }
+    @-moz-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}
-</style>
+    }
+  </style>
 
-<body>
+  <body>
 
-<header>
-<div class="bg-black white py2" >
+    <header>
+      <div class="bg-black white py2" >
 	<div class="container sm-w8">
-		<div class="align-right h6 gray">
-			<span class="btn btn-outline">Call Dr.</span> <span class="btn">+33 04 0055</span>
-		</div>
-		<div class="h1 py2" style="height:2.5em;">
-			<span class="red">When</span> you need <br> 
-			<span id="typed">
-				<span class="green">to cure</span> <span class="blue">your code.</span>
-			</span>
-		</div>
-		<div class="py2 align-right serif-sans">
-			<h1 class="regular mb0"><strong style="font-size:130%;">::</strong> Dr. Code</h1>
-			<h2 class="h5 regular m0">Fast-consulting code</h2>
-		</div>
+	  <div class="align-right h6 gray">
+	    <span class="btn btn-outline">Call Dr.</span> <span class="btn">+33 04 0055</span>
+	  </div>
+	  <div class="h1 py2" style="height:2.5em;">
+	    <span class="red">When</span> you need <br> 
+	    <span id="typed">
+	      <span class="green">to cure</span> <span class="blue">your code.</span>
+	    </span>
+	  </div>
+	  <div class="py2 align-right serif-sans">
+	    <h1 class="regular mb0"><strong style="font-size:130%;">::</strong> Dr. Code</h1>
+	    <h2 class="h5 regular m0">Fast-consulting code</h2>
+	  </div>
 	</div>
-</div>
-</header>
+      </div>
+    </header>
 
 
-<section>
-<div class="bg-silver  black py3">
+    <section>
+      <div class="bg-silver  black py3">
 	<div class="container lg-w8">
 
-		<div class="h3 py2">
-		 <strong><span class="red">Verbaliser un problème </span> c'est déjà en partie <span class="green">le résoudre.</span> </strong><br>
-		 <b>Dr. Code </b>propose des <span class="blue">consultations courtes</span> pour tous ceux qui manipulent du code informatique confrontés à des difficultés.
-	 	</div>
+	  <div class="h3 py2">
+	    <strong><span class="red">Verbaliser un problème </span> c'est déjà en partie <span class="green">le résoudre.</span> </strong><br>
+	    <b>Dr. Code </b>propose des <span class="blue">consultations courtes</span> pour tous ceux qui manipulent du code informatique confrontés à des difficultés.
+	  </div>
 
-	 	<div class="muted h5"> 
-	 		<p>Administrateurs, architectes, concepteurs, analystes métiers, managers, chefs de projets, scrumasters, coachs... </p>
-	 	</div>
+	  <div class="muted h5"> 
+	    <p>Administrateurs, architectes, concepteurs, analystes métiers, managers, chefs de projets, scrumasters, coachs... </p>
+	  </div>
 
-	 	<div class="clearfix mxn2 border-top border-bottom">
-	 		<div class="col px2 sm-w6">
-	 			<h4>Drcode <span class="blue">c'est</span></h4>
-	 			<ul class="list-reset h5">
-	 				<li class="inline"><span class="blue">&bull;</span> Un diagnostic permettant d'enclencher un processus d'amélioration</li>
-	 				<li class="inline"><span class="blue">&bull;</span> Une approche holistique de la résolution de problèmes liant produit et organisation</li>
-	 				<li class="inline"><span class="blue">&bull;</span> Un regard critique et bienveillant appuyé sur 20 ans d'expérience</li>
-	 				<li class="inline"><span class="blue">&bull;</span> Une maïeutique</li>
-	 			</ul>
-	 		</div>
-	 		<div class="col px2 sm-w4 h5">
-	 			<h4 class="">Drcode <span class="red">n'est pas</span></h4>
-	 			<ul class="list-reset h5">
-	 				<li class="inline"><span class="red">x</span> Un service de consultant payé à la journée</li>
-	 				<li class="inline"><span class="red">x</span> Une boîte à outils de solutions toutes faites</li>
-	 				<li class="inline"><span class="red">x</span> Une expertise spécialisée sur telle ou telle technologie.</li>
-	 			</ul>
-	 		</div>
-	 	</div>
+	  <div class="clearfix mxn2 border-top border-bottom">
+	    <div class="col px2 sm-w6">
+	      <h4>Drcode <span class="blue">c'est</span></h4>
+	      <ul class="list-reset h5">
+	 	<li class="inline"><span class="blue">&bull;</span> Un diagnostic permettant d'enclencher un processus d'amélioration</li>
+	 	<li class="inline"><span class="blue">&bull;</span> Une approche holistique de la résolution de problèmes liant produit et organisation</li>
+	 	<li class="inline"><span class="blue">&bull;</span> Un regard critique et bienveillant appuyé sur 20 ans d'expérience</li>
+	 	<li class="inline"><span class="blue">&bull;</span> Une maïeutique</li>
+	      </ul>
+	    </div>
+	    <div class="col px2 sm-w4 h5">
+	      <h4 class="">Drcode <span class="red">n'est pas</span></h4>
+	      <ul class="list-reset h5">
+	 	<li class="inline"><span class="red">x</span> Un service de consultant payé à la journée</li>
+	 	<li class="inline"><span class="red">x</span> Une boîte à outils de solutions toutes faites</li>
+	 	<li class="inline"><span class="red">x</span> Une expertise spécialisée sur telle ou telle technologie.</li>
+	      </ul>
+	    </div>
+	  </div>
 
-	 	<h4>Fonctionnement</h4>
+	  <h4>Fonctionnement</h4>
 
-</div>	
-</section>
+        </div>	
+    </section>
 
-<section id="sticky_anchor">
-<div id="sticky" class="w10 bg-white py2 green border-top border-bottom border-green">
+    <section id="sticky_anchor">
+      <div id="sticky" class="w10 bg-white py2 green border-top border-bottom border-green">
 	<div class="container align-center">
-		<div class="h5">
-		<span class="btn btn-outline">Call the doctor</span>
-		<span class="h6"><span class="btn">+33 04 0055</span> <span class="btn">hello@drcode.io</span></span>
-		</div>
+	  <div class="h5">
+	    <span class="btn btn-outline">Call the doctor</span>
+	    <span class="h6"><span class="btn">+33 04 0055</span> <span class="btn">hello@drcode.io</span></span>
+	  </div>
 	</div> 
-</div>
-</section>
+      </div>
+    </section>
 
-<section>
-<div class="bg-white">
+    <section>
+      <div class="bg-white">
 	<div class="row m0">
-		<div class="cell w6 sm-w4 mr1 align-bottom">
-			<span><img src="img/arnaud_hero.png" alt="" class="align-bottom"></span>
-		</div>
-		<div class="cell sm-w6 p2 align-middle">
-			<h5 class="m0"><span class="green">Doctor</span> <span class="blue">Who ?</span></h5>
-			<h1 class="m0">A. Bailly</h1>
-			<p>Prout cogitationes rerumque ideae ordinantur et concatenantur in mente, ita corporis affectiones seu rerum imagines ad amussim ordinantur et concatenantur in corpore.</p>
-			<p class="h5"><span class="btn btn-outline">linkdin</span> <span class="btn btn-outline">tech blog</span></p>
-		</div>
+	  <div class="cell w6 sm-w4 mr1 align-bottom">
+	    <span><img src="img/arnaud_hero.png" alt="" class="align-bottom"></span>
+	  </div>
+	  <div class="cell sm-w6 p2 align-middle">
+	    <h5 class="m0"><span class="green">Doctor</span> <span class="blue">Who ?</span></h5>
+	    <h1 class="m0">A. Bailly</h1>
+	    <p>Prout cogitationes rerumque ideae ordinantur et concatenantur in mente, ita corporis affectiones seu rerum imagines ad amussim ordinantur et concatenantur in corpore.</p>
+	    <p class="h5"><span class="btn btn-outline">linkdin</span> <span class="btn btn-outline">tech blog</span></p>
+	  </div>
 	</div>
-</div>
-</section>
+      </div>
+    </section>
 
 
 
-<section>
-<div class="bg-darken-1 py1">
+    <section>
+      <div class="bg-darken-1 py1">
 	<div class="container">
-	 	<div class="row">
-	 		<div class="cell p1 sm-w3">
-	 			<h2 class="px2 align-right">Faq</h2>
-	 		</div>
-	 		<div class="cell p1 sm-w7 h5">
-	 			<ul class="list-reset">
-	 				<li class="border-top ">
-	 					<h4 class="mb0">Combien ça coûte?</h4>
-	 					<p>€100/h.</p>
-	 				</li>
-	 				<li class="border-top ">
-	 					<h4 class="mb0">Est-ce remboursé par la sécurité sociale ?</h4>
-	 					<p>Pas encore.</p>
-	 				</li>
-	 				<li class="border-top ">
-	 					<h4 class="mb0">Une question ?</h4>
-	 					<p><a href="#">hello@drcode.io</a> </p> 
-	 				</li>
-	 			</ul>		
-	 		</div>
-	 	</div>
-</div>	
-</section>
+	  <div class="row">
+	    <div class="cell p1 sm-w3">
+	      <h2 class="px2 align-right">Faq</h2>
+	    </div>
+	    <div class="cell p1 sm-w7 h5">
+	      <ul class="list-reset">
+	 	<li class="border-top ">
+	 	  <h4 class="mb0">Combien ça coûte?</h4>
+	 	  <p>€100/h.</p>
+	 	</li>
+	 	<li class="border-top ">
+	 	  <h4 class="mb0">Est-ce remboursé par la sécurité sociale ?</h4>
+	 	  <p>Pas encore.</p>
+	 	</li>
+	 	<li class="border-top ">
+	 	  <h4 class="mb0">Une question ?</h4>
+	 	  <p><a href="#">hello@drcode.io</a> </p> 
+	 	</li>
+	      </ul>		
+	    </div>
+	  </div>
+        </div>	
+    </section>
 
-
-<footer>
-<div class="bg-black white py2">
+    <section>
+      <div class="bg-darken-2 py1">
 	<div class="container">
-		<p class="align-right h6 mb0">&copy; 2016 Dr. Code</p>
+	  <div class="row">
+	    <div class="cell p1 sm-w3">
+	      <h2 class="px2 align-right">Testimonials</h2>
+	    </div>
+	    <div class="cell p1 sm-w7 h5">
+	      <ul class="list-reset">
+	 	<li class="border-top ">
+	 	  <h4 class="mb0">Combien ça coûte?</h4>
+	 	  <p>€100/h.</p>
+	 	</li>
+	 	<li class="border-top ">
+	 	  <h4 class="mb0">Est-ce remboursé par la sécurité sociale ?</h4>
+	 	  <p>Pas encore.</p>
+	 	</li>
+	 	<li class="border-top ">
+	 	  <h4 class="mb0">Une question ?</h4>
+	 	  <p><a href="#">hello@drcode.io</a> </p> 
+	 	</li>
+	      </ul>		
+	    </div>
+	  </div>
+        </div>	
+    </section>
+
+
+    <footer>
+      <div class="bg-black white py2">
+	<div class="container">
+	  <p class="align-right h6 mb0">&copy; 2016 Dr. Code</p>
 	</div>
-</div>
-</footer>
+      </div>
+    </footer>
 
-<script>
-  $(function(){
+    <script>
+      $(function(){
       $("#typed").typed({
-        strings: ['<span class="green">to cure</span> <span class="blue">your code.</span>','<span class="green"> agile </span> <span class="blue">development.</span>'],
-        typeSpeed: 20,
-        showCursor: true,
-        loop: true
+      strings: ['<span class="green">to cure</span> <span class="blue">your code.</span>','<span class="green"> agile </span> <span class="blue">development.</span>'],
+      typeSpeed: 20,
+      showCursor: true,
+      loop: true
       });
-  });
-</script>
-<script>
-	function sticky_relocate() {
-	    var window_top = $(window).scrollTop();
-	    var div_top = $('#sticky_anchor').offset().top;
-	    if (window_top > div_top) {
-	        $('#sticky').addClass('fixed top0 z2');
-	    } else {
-	        $('#sticky').removeClass('fixed top0 z2');
-	    }
-	}
+      });
+    </script>
+    <script>
+      function sticky_relocate() {
+      var window_top = $(window).scrollTop();
+      var div_top = $('#sticky_anchor').offset().top;
+      if (window_top > div_top) {
+      $('#sticky').addClass('fixed top0 z2');
+      } else {
+      $('#sticky').removeClass('fixed top0 z2');
+      }
+      }
 
-	$(function () {
-	    $(window).scroll(sticky_relocate);
-	    sticky_relocate();
-	});
+      $(function () {
+      $(window).scroll(sticky_relocate);
+      sticky_relocate();
+      });
 
-</script>
+    </script>
 
 
 
-</body>
+  </body>
 </html>
