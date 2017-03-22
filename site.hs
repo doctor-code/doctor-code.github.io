@@ -12,7 +12,11 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "font/*" $ do
+    match "images/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "CNAME" $ do
         route   idRoute
         compile copyFileCompiler
 
